@@ -1,0 +1,132 @@
+.title  
+{  
+        margin-bottom: 20px;  
+        padding:20px  
+}  
+.img  
+{  
+        height: 260px;width:100%  
+} 
+.slider {
+    background-color: #F9F6F6;
+}
+.slider-header {
+    color: #400E03;
+    font-size: 32px;
+    font-weight: 700;
+}
+.slider-container {
+    border: 1px solid #E0D8D7;
+    border-bottom: 5px solid #ED1C24 !important;
+    border-radius: 2px;
+    flex: 1;
+    padding: 10px 20px;
+    background-color: white;
+}
+.owl-item {
+    display: flex !important;
+    
+}
+.owl-stage {
+    display: flex !important;
+}
+
+.slider-name {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: #400E03;
+}
+
+.slider-p {
+    font-size: 14px;
+    text-align: left;
+    color: #400E03;
+}
+.learn-more {
+    color: #ED1C24;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #FDE4E5;
+    border: none;
+    padding: 12px 51px;  
+}
+.find-dealer {
+    color: #FDE4E5;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #ED1C24;
+    border: none;
+    padding: 12px 51px;
+    
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ED1C24 !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .slider-header {
+        font-size: 24px;
+        text-align: left;    
+    }
+    .learn-more {
+        padding: 12px 17px;  
+    }
+    .find-dealer {
+        padding: 12px 17px;  
+    }
+}
+/* Mobile Medium  --------------------------------------------------------- */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .slider-header {
+        font-size: 24px;
+        text-align: left;    
+    }
+    .learn-more {
+        padding: 12px 29px;  
+    }
+    .find-dealer {
+        padding: 12px 29px;  
+    }
+}
+/* Mobile Large - --------------------------------------------------------- */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .slider-header {
+        font-size: 24px;
+        text-align: left;    
+    }
+    .learn-more {
+        padding: 12px 42px;  
+    }
+    .find-dealer {
+        padding: 12px 42px;  
+    }
+}
+
+/* Tablet - --------------------------------------------------------------- */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .slider-header {
+        font-size: 24px;
+        text-align: left;    
+    }
+    .learn-more {
+        padding: 12px 29px;  
+    }
+    .find-dealer {
+        padding: 12px 29px;  
+    }
+}
+
+/* Laptop ------------------------------------------------------------------ */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .slider-header {
+        font-size: 24px;
+        text-align: left;    
+    }
+    .learn-more {
+        padding: 12px 29px;  
+    }
+    .find-dealer {
+        padding: 12px 29px;  
+    }
+  }

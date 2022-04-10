@@ -1,0 +1,55 @@
+.banner-div {
+    background-image: url("../images/Hero.png");
+    border-radius: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.banner-info {
+    text-align: center;
+    
+}
+.banner-title {
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+    width: 38%;
+    margin:auto;
+    line-height: 1;
+    margin-bottom: 2%;
+}
+
+.banner-button {
+    color: #ED1C24;
+    background-color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pb-9 {
+    padding-bottom: 9rem !important;
+}
+
+.pt-9 {
+    padding-top: 9rem !important;
+}
+
+@media (max-width: 767px) { 
+    .banner-div {
+        background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+    }
+    .banner-title {
+        font-size: 38px;
+        width: 100%;
+        margin-bottom: 1%;
+        padding: 0px !important;
+    }
+
+}
+.bg-image {
+    background-image: url("../images/Hero.png");
+    height: 100vw;
+}
